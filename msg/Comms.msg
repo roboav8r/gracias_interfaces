@@ -1,2 +1,2 @@
-std_msgs/Header             header
-gracias_interfaces/Comm[]   comms
+std_msgs/Header                     header
+situated_hri_interfaces/Comm[]      comms
