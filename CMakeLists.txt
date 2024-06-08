@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Auth.msg"
+  "msg/CategoricalDistribution.msg"
   "msg/Comm.msg"
   "msg/Comms.msg"
   "msg/Identity.msg"
