@@ -8,6 +8,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -16,7 +18,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Comm.msg"
   "msg/Comms.msg"
   "msg/Identity.msg"
-  DEPENDENCIES geometry_msgs
+  "srv/ObjectVisRec.srv"
+  DEPENDENCIES geometry_msgs sensor_msgs
  )
 
 if(BUILD_TESTING)
