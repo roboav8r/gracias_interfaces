@@ -1,5 +1,8 @@
-uint64                      person_id
+uint64                      object_id
+string                      class_string
+bool                        estimate_attributes
+bool                        estimate_states
 sensor_msgs/Image           image
 ---
-string[]                    attributes
-float64[]                   attribute_probs
+situated_hri_interfaces/CategoricalDistribution[]   attributes
+situated_hri_interfaces/CategoricalDistribution[]   states
