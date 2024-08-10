@@ -1,0 +1,7 @@
+builtin_interfaces/Time     epoch_start_time
+string                      scene
+string                      role
+string                      cmd_mode
+string                      cmd
+uint32                      iteration
+---

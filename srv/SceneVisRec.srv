@@ -1,0 +1,3 @@
+sensor_msgs/Image           scene_image
+---
+situated_hri_interfaces/CategoricalDistribution     scene_class

@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(audio_common_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
@@ -19,7 +20,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Comms.msg"
   "msg/Identity.msg"
   "srv/ObjectVisRec.srv"
-  DEPENDENCIES geometry_msgs sensor_msgs
+  "srv/SceneAudioRec.srv"
+  "srv/SceneVisRec.srv"
+  "srv/RecordEpoch.srv"
+  DEPENDENCIES geometry_msgs sensor_msgs audio_common_msgs
  )
 
 if(BUILD_TESTING)
