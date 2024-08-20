@@ -1,3 +1,4 @@
 audio_common_msgs/AudioDataStamped                  scene_audio
 ---
 situated_hri_interfaces/CategoricalDistribution     scene_class
+float64                                             inference_time
