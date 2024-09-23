@@ -18,6 +18,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CategoricalDistribution.msg"
   "msg/Comm.msg"
   "msg/Comms.msg"
+  "msg/HierarchicalCommand.msg"
+  "msg/HierarchicalCommands.msg"
   "msg/Identity.msg"
   "srv/ObjectVisRec.srv"
   "srv/SceneAudioRec.srv"
