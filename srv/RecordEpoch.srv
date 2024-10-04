@@ -1,7 +1,10 @@
 builtin_interfaces/Time     epoch_start_time
+string                      config
 string                      scene
 string                      role
 string                      cmd_mode
 string                      cmd
+string                      cmd_rec_method
+string                      role_rec_method
 uint32                      iteration
 ---

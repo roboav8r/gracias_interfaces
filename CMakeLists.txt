@@ -11,6 +11,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(audio_common_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
+find_package(diagnostic_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -25,7 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SceneAudioRec.srv"
   "srv/SceneVisRec.srv"
   "srv/RecordEpoch.srv"
-  DEPENDENCIES geometry_msgs sensor_msgs audio_common_msgs
+  DEPENDENCIES geometry_msgs sensor_msgs audio_common_msgs diagnostic_msgs
  )
 
 if(BUILD_TESTING)
