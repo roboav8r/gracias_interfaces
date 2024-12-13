@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HierarchicalCommands.msg"
   "msg/Identity.msg"
   "srv/ObjectVisRec.srv"
+  "srv/GestureRec.srv"
   "srv/SceneAudioRec.srv"
   "srv/SceneVisRec.srv"
   "srv/RecordEpoch.srv"

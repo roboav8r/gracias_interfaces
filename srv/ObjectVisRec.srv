@@ -7,6 +7,8 @@ bool                        estimate_comms
 sensor_msgs/Image           image
 ---
 builtin_interfaces/Time                             stamp
+uint64                                              object_id
+string                                              class_string
 situated_hri_interfaces/CategoricalDistribution[]   attributes
 situated_hri_interfaces/CategoricalDistribution[]   states
 situated_hri_interfaces/CategoricalDistribution     comms
