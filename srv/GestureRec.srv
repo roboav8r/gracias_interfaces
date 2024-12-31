@@ -1,8 +1,8 @@
 builtin_interfaces/Time     stamp
 uint64                      object_id
-int64   num_keypoints
-int64   dim_keypoints
-int64   frame_length
+#int64   num_keypoints
+#int64   dim_keypoints
+#int64   frame_length
 float32[] keypoint_data
 ---
 builtin_interfaces/Time                             stamp
